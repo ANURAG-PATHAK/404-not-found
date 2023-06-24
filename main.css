@@ -1,0 +1,36 @@
+.main_heading {
+    color: #333;
+    font-size: 24px;
+    font-family: Inconsolata;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+.image {
+    width: 30%;
+}
+
+.button {
+    width: 216px;
+    height: 68px;
+    background: #333;
+    flex-shrink: 0;
+}
+
+.boldtext {
+    width: 586px;
+    color: #333;
+    font-size: 64px;
+    font-family: Space Mono;
+    font-weight: 700;
+    letter-spacing: -2.24px;
+}
+
+.bodytext {
+    width: 381px;
+    color:#4f4f4f;
+    font-size: 24px;
+    font-family: Space Mono;
+    letter-spacing: -0.84px;
+}

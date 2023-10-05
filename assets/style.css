@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    margin: 2%;
+    scroll-behavior: smooth;
+}
+
+.heading--text {
+    color: #333;
+    font-family: 'Inconsolata', 'monospace';
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+.main_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.main_container--text_container, .main_container--image_container{
+    padding: 1%;
+}
+.main_container--text_container--heading {
+    color: #333;
+    font-family: 'Space Mono';
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+
+.main_container--text_container--text {
+    color: #4F4F4F;
+    width: 30vw;
+    font-family: 'Space Mono';
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.main_container--text_container--button {
+    border: none;
+    cursor: pointer;
+    background: #333;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    margin-top: 3%;
+    padding: 3% 5%;
+}
+.main_container--image_container--image {
+    width: 50vw;
+    background: #FFF;
+}
+.footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 1vh;}
+.footer--text{
+    text-align: center;
+    color: #BDBDBD;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #BDBDBD;
+}
+@media screen and (max-width: 600px) {
+    .heading--text {
+        font-size: 4vw;
+    }
+    .main_container {
+        flex-direction: column;
+    }
+    .main_container--image_container--image {
+        width: 80vw;
+    }
+    .main_container--text_container--button {
+        font-size: 2vw;
+    }
+    .main_container--text_container--text {
+        width: 60vw;
+        font-size: 3vw;
+    }
+    .main_container--text_container--heading {
+        font-size: 8vw;
+    }
+}

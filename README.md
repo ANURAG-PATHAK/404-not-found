@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](assets/images/Screenshot%202023-10-05%20at%206.30.10 AM.png)
+![screenshot](assets/images/Screenshot.png)
 
 This is a simple 404 Not found webpage.
 

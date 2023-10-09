@@ -14,8 +14,9 @@ html {
 .heading--text {
     color: #333;
     font-family: 'Inconsolata', 'monospace';
-    font-size: 2vw;
+    font-size: 3vw;
     font-style: normal;
+    text-align: center;
     font-weight: 700;
     line-height: normal;
     letter-spacing: -1.92px;
